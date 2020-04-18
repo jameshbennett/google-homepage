@@ -21,9 +21,10 @@ a:hover{
 button:hover{
     text-decoration: underline;
     border:1px grey solid;
+    outline-offset: 2px;
 }
-.textbox:hover{
-    background-origin: shadow 3px; grey;
+.textbox:focus{
+    border: hotpink;
 }
 .header-left{
     float:left;
@@ -38,10 +39,16 @@ button:hover{
     justify-content: center;
 }
 .textbox{
-    width:500px;
+    width:530px;
     height: 40px;
-    border: #E2E2E3,solid;
+    border: 1px solid #EAEAEA;
     border-radius: 30px;
+    font-size:16px;
+    padding:3px;
+    padding-left: 10px;
+}
+input:focus{
+    outline-offset: 2px;
 }
 .buttons{
     padding-top: 30px;
