@@ -1,0 +1,106 @@
+html{
+    margin: auto;
+    width: auto;
+    font-family:'product sans','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #404040;
+    text-decoration: none;
+    padding:15px;
+    text-align: center;
+}
+body{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color:#404040;
+}
+a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    text-decoration: underline;
+    border:1px grey solid;
+}
+.textbox:hover{
+    background-origin: shadow 3px; grey;
+}
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+}
+.logo{
+    width:280px;
+    height:auto;
+    margin-top: 130px;
+    justify-content: center;
+}
+.textbox{
+    width:500px;
+    height: 40px;
+    border: #E2E2E3,solid;
+    border-radius: 30px;
+}
+.buttons{
+    padding-top: 30px;
+}
+#google-button{
+    background-color: #F2F2F2;
+    color: #5F6368;
+    font-size: 14px;
+    width:130px;
+    height:35px;
+    border-radius: 8px;
+    padding:3px;
+    border:3px;
+    border-right:5px;
+}
+#lucky-button{
+    background-color: #F2F2F2;
+    color: #5F6368;
+    font-size:14px;
+    width:130px;
+    height:35px;
+    border-radius: 8px;
+    padding:3px;
+    border:3px;
+}
+#link{
+    color:#1A0CAB;
+}
+.footer-bar{
+    position: absolute;
+    width:100%;
+    padding-bottom: 11px;
+    padding-top:11px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:#F2F2F2;
+}
+.footer-left{
+    float:left;
+    padding-left:30px;
+    color: #5F6368;
+    font-size: 14px;
+}
+.footer-right{
+    float:right;
+    padding-right:30px;
+    color: #5F6368;
+    font-size: 14px;
+}
+.business{
+    margin-left: 20px;
+}
+.how-search-works{
+    margin-left: 20px;
+}
+.terms{
+    margin-right:20px;
+}
+.privacy{
+    margin-right:20px;
+}
